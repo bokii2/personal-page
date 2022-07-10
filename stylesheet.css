@@ -1,0 +1,142 @@
+html{
+    position: relative;
+    min-height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    width: 99%;
+    text-align: center;
+    background: url("sunset.jpg");
+    background-position-x: center;
+    font-family: 'Century Gothic', sans-serif;
+    color: white;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    justify-content: space-between;
+    margin-bottom: 5%;
+}
+
+header .left{
+    margin-left: 3%;
+    letter-spacing: 1rem;
+}
+.navigation a{
+    color: white;
+}
+
+a[href="#"]{
+    padding: 0.5rem 1rem;
+    background: rgba(0,0,0,0.4);
+    border-radius: 1rem;
+}
+
+header .navigation{
+    margin-right: 3%;
+    overflow: hidden;
+    width: 40%;
+}
+
+header .navigation ul{
+    display: flex;
+    flex-direction: row;
+    padding-inline-start: 0;
+    justify-content: space-evenly;
+}
+
+header .navigation li{
+    list-style-type: none;
+    padding: 0 5%;
+
+}
+
+header .navigation a{
+    text-decoration: none;
+}
+
+.top h1{
+    font-size: 50px;
+}
+
+.info{
+    display: flex;
+    width: 50%;
+    background: rgba(0,0,0,0.4);
+    padding: 40px;
+    margin: auto;
+    color: white;
+    align-items: center;
+    border-radius: 1rem;
+}
+.info .left, .info .right{
+    margin: 0 2%;
+}
+.info .right h1{
+    letter-spacing: 1rem;
+    margin-bottom: 5rem;
+}
+
+.education{
+    display: flex;
+}
+
+.education .high-school, .education .university{
+    width: 30%;
+    background: rgba(0,0,0,0.4);
+    padding: 40px;
+    margin: auto;
+    color: white;
+    border-radius: 1rem;
+}
+
+.hobby{
+    width: 75%;
+    height: auto;
+    background: rgba(0,0,0,0.4);
+    padding: 40px;
+    margin: auto;
+    color: white;
+    border-radius: 1rem;
+}
+
+.travel{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    justify-content: space-evenly;
+    background: rgba(0,0,0,0.4);
+    padding: 40px;
+    margin: auto;
+    color: white;
+    border-radius: 1rem;
+}
+
+.travel .place{
+    display: flex;
+    flex-direction: column;
+}
+
+.travel .place .img{
+    margin: auto;
+    justify-content: center;
+    width: 25rem;
+}
+
+iframe{
+    width: 75%;
+    height: 40rem;
+}
+
+footer{
+    /*clear: both;*/
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
