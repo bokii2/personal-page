@@ -8,7 +8,7 @@ body{
     flex-direction: column;
     width: 99%;
     text-align: center;
-    background: url("sunset.jpg") no-repeat;
+    background: url("sunset.jpg");
     background-position-x: center;
     font-family: 'Century Gothic', sans-serif;
     color: white;
